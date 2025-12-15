@@ -2,6 +2,4 @@
 
 @section('title', 'Accueil')
 
-@section('content')
-<h1>Bienvenue sur le site de {{ $name }}</h1>
-@endsection
+@section('header', 'Bienvenue sur le site de ' . $name)

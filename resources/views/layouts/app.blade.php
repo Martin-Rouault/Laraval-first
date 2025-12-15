@@ -8,7 +8,7 @@
 
 <body>
     <header>
-        <h1>Mon site Laravel</h1>
+        <h1>@yield('header')</h1>
     </header>
     <main>
         @yield('content')

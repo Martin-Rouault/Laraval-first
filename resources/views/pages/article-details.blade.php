@@ -2,6 +2,5 @@
 
 @section('title', 'Article ' . $id)
 
-@section('content')
-<h1>Article numéro {{ $id }}</h1>
-@endsection
+@section('header', 'Article numéro ' . $id)
+
