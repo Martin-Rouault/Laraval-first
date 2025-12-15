@@ -1,3 +1,2 @@
-<h1>
-    Page non trouvée
-</h1>
+@extends('layouts.app')
+<p>Page non trouvée</p>
