@@ -1,4 +1,4 @@
 <article>
-    <h3 class="">{{ $title }}</h3>
+    <h3>{{ $title }}</h3>
     <p>{{ $description }}</p>
 </article>
