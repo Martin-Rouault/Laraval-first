@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+<link rel="icon" type="image/x-icon" href="/favicon.png">
 
 <head>
     <meta charset="UTF-8">
