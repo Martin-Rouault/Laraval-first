@@ -11,7 +11,6 @@
         <h1>Mon site Laravel</h1>
     </header>
     <main>
-        <h2>@yield('content-title')</h2>
         @yield('content')
     </main>
     <footer>
