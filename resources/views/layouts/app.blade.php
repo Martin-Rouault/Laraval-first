@@ -11,9 +11,7 @@
     <main>
         @yield('content')
     </main>
-    <footer>
-        <p>© 2025 - Tous droits réservés</p>
-    </footer>
+    @include('partials.footer')
 </body>
 
 </html>
