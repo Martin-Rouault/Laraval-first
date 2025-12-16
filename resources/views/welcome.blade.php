@@ -11,7 +11,7 @@
         @break
     @endif
 
-    <x-article title="{{ $article['title'] }}" description="{{ $article['description'] }}" />
+    <x-article title="{{ $article['title'] }}" description="{{ Str::limit($article['description'], 30) }}" />
 
 @endforeach
 
