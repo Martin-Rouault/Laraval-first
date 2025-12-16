@@ -1,2 +1,4 @@
-<h2 class="">{{ $title }}</h2>
-<p>{{ $description }}</p>
+<article>
+    <h3 class="">{{ $title }}</h3>
+    <p>{{ $description }}</p>
+</article>
