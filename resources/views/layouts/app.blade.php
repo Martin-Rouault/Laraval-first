@@ -8,9 +8,10 @@
 
 <body>
     <header>
-        <h1>@yield('header')</h1>
+        <h1>Mon site Laravel</h1>
     </header>
     <main>
+        <h2>@yield('content-title')</h2>
         @yield('content')
     </main>
     <footer>

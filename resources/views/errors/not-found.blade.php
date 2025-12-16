@@ -2,4 +2,4 @@
 
 @section('title', 'Not Found')
 
-@section('header', 'Page non trouvée')
+@section('content-title', 'Page non trouvée')
