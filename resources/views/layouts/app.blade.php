@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="fr">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 
 <head>
     <meta charset="UTF-8">
@@ -7,9 +7,7 @@
 </head>
 
 <body>
-    <header>
-        <h1>Mon site Laravel</h1>
-    </header>
+    @include('partials.header')
     <main>
         @yield('content')
     </main>
