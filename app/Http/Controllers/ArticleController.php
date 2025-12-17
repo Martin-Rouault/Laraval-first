@@ -9,7 +9,7 @@ class ArticleController extends Controller
 {
     public function show($id)
     {
-        $article = Article::find($id);
+        $article = Article::findOrFail($id);
         return view('pages.article-details', ['article' => $article]);
     }
 
