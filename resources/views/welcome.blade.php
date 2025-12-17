@@ -11,7 +11,9 @@
         @break
     @endif
 
-    <x-article title="{{ $article['title'] }}" description="{{ $article['description'] }}" />
+    <a href="/article/{{ $article['id'] }}">
+        <x-article title="{{ $article['title'] }}" description="{{ $article['description'] }}" />
+    </a>
 
 @endforeach
 
